@@ -1,9 +1,9 @@
 class ProtocGenCrystal < Formula
   desc "Protobuf generation for Crystal"
   homepage "https://github.com/jeromegn/protobuf.cr"
-  url "https://github.com/jeromegn/protobuf.cr/releases/download/v2.1.2/protoc-gen-crystal-darwin-x86_64.tar.gz"
-  version "2.1.2"
-  sha256 "5dff38f194fb55d989ead2b2da9ac3478c26ccbf4ae132499ed1d022d47d35ca"
+  url "https://github.com/jeromegn/protobuf.cr/releases/download/v2.3.0/protoc-gen-crystal"
+  version "2.3.0"
+  sha256 "4061dabfc4216098525858ab8de3713df347bb5bb628c789252c7f322f280aa1"
 
   def install
     bin.install 'protoc-gen-crystal'
